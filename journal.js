@@ -1,6 +1,6 @@
 var file = new XMLHttpRequest();
 var text;
-file.open("GET", "/journal.txt", false);
+file.open("GET", "journal.txt", false);
 file.onreadystatechange = function (){
     if(file.readyState === 4){
         if(file.status === 200 || file.status == 0){
