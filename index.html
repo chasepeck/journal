@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com"> 
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+	<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wdth,wght@100,400;161.9,900&display=swap" rel="stylesheet">
+	<title>Journal</title>
+</head>
+<style>
+	@keyframes glow {
+	  from {
+	    text-shadow: 0 0 6px rgba(180,180,255,0.3), 0 0 9px rgba(180,180,255,0.3), 0 0 12px rgba(180,180,255,0.3), 0 0 15px rgba(180,180,255,0.3), 0 0 18px rgba(180,180,255,0.3), 0 0 21px rgba(180,180,255,0.3), 0 0 24px rgba(180,180,255,0.3);
+	  }
+	  to {
+	    text-shadow: 0 0 8px rgba(180,180,255,0.4), 0 0 12px rgba(180,180,255,0.4), 0 0 16px rgb(180,180,255,0.4), 0 0 20px rgba(180,180,255,0.4), 0 0 24px rgba(180,180,255,0.4), 0 0 28px rgba(180,180,255,0.4), 0 0 32px rgba(180,180,255,0.4);
+	  }
+	}
+
+	body {
+		background-color: black;
+		color: white;
+		font-family: "Inconsolata", monospace;
+		padding: 25px;
+	}
+	h1 {
+		animation: glow 2s ease-in-out infinite alternate;
+		margin-left: 10%;
+		font-stretch: 160%;
+		font: weight: 900%;
+	}
+	div {
+		margin: 10px;
+	}
+	a {
+		color: rgb(180,180,255);
+	}
+	b {
+		margin-right: 5px;
+		border-right: solid rgb(100,100,100) 1px;
+	}
+	footer {
+		text-shadow: 0 0 2px rgba(180,180,255,0.1), 0 0 3px rgba(180,180,255,0.1), 0 0 4px rgba(180,180,255,0.1), 0 0 5px rgba(180,180,255,0.1), 0 0 6px rgba(180,180,255,0.1), 0 0 7px rgba(180,180,255,0.1), 0 0 8px rgba(180,180,255,0.1);
+		position: fixed;
+		left: 0;
+		bottom: 0;
+		width: 100%;
+		text-align: center;
+		padding: 10px;
+	}
+</style>
+<body>
+	<h1>
+		journal.
+	</h1>
+	<footer>
+		<a href="https://chasepeck.com">chasepeck.com</a>
+	</footer>
+</body>
+<script src="journal.js"></script>
+</html>
