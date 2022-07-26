@@ -20,6 +20,6 @@ for(var i = 0; i < matches.length; i++){
 		entry.setAttribute("style","background-color: rgb(20,20,20);")
 	}
 
-	entry.innerHTML = "<b>"+split[0]+"</b> "+split[1];
+	entry.innerHTML = "<b>"+split[0].trim()+"</b>"+split[1].trim();
 	document.body.appendChild(entry);
 }
